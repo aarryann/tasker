@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  api:
+    build: api/
+    container_name: tasker_api
+    expose: [4811]
+    extra_hosts:
+      - 'database:192.168.1.183'
+    ports:
+      - 4811:4811
+
+  ui:
+    build: ui/
+    container_name: tasker_app
+    depends_on:
+      - api
+    expose: [3000]
+    ports:
+      - '3000:3000'
