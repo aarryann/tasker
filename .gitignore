@@ -1,6 +1,6 @@
 *.lock
 /node_modules/
-/ui
+/app
 /api
 /data/
 /.docs/
