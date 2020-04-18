@@ -7,7 +7,7 @@ services:
     env_file: ./api/.env
     expose: [4811]
     extra_hosts:
-      - 'database:192.168.1.183'
+      - 'database:192.168.1.202'
     ports:
       - 4811:4811
 
