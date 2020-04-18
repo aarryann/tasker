@@ -2,7 +2,7 @@
   "projects": {
     ".docs": "https://github.com/aarryann/docex.git",
     "data": "https://github.com/aarryann/sample-data.git",
-    "ui": "https://github.com/aarryann/asker.git",
+    "app": "https://github.com/aarryann/asker.git",
     "api": "https://github.com/aarryann/doserver.git"
   }
 }
